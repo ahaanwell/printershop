@@ -1,5 +1,5 @@
 "use client";
- /*eslint-disable react/no-unescaped-entities*/
+// eslint-disable react/no-unescaped-entities
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 
@@ -109,7 +109,7 @@ export default function CustomerReviews() {
 
               {/* Review Text */}
               <p className="text-gray-700 italic mb-6 leading-relaxed">
-                "{review.text}"
+                {review.text}
               </p>
 
               {/* Author */}

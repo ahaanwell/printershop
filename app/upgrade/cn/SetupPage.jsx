@@ -236,10 +236,10 @@ export default function SetupPage() {
                 <div className="relative mx-auto grid min-h-[360px] max-w-7xl items-center gap-4 px-5 py-10 sm:px-8 md:min-h-[390px] lg:grid-cols-[1.6fr_0.8fr] lg:gap-10 lg:px-12">
                     <div className="relative z-10 max-w-3xl">
                         <h1 className="mb-5 text-3xl font-medium tracking-tight sm:text-4xl lg:text-[40px]">
-                            Set up your Canon printer
+                            Set up your printer
                         </h1>
                         <p className="mb-7 max-w-2xl text-base leading-relaxed sm:text-lg">
-                            Enter your <strong>Canon product name and model number</strong> to get the right Canon software and drivers for you
+                            Enter your <strong> product name and model number</strong> to get the right Canon software and drivers for you
                         </p>
                         <form
                             className="flex max-w-3xl gap-2 rounded-xl border-[5px] border-white/20 bg-white/10 p-1"
@@ -279,7 +279,7 @@ export default function SetupPage() {
                 <div className="mx-auto grid min-h-[330px] max-w-7xl items-center gap-6 px-5 py-10 sm:px-8 md:min-h-[360px] lg:grid-cols-[1.7fr_0.8fr] lg:gap-12 lg:px-12">
                     <div className="max-w-3xl space-y-7 text-lg leading-relaxed text-gray-900 sm:text-xl">
                         <p>
-                            Install Canon software and drivers on each mobile device or computer you want to print from. Add the printer on the new device.
+                            Install software and drivers on each mobile device or computer you want to print from. Add the printer on the new device.
                         </p>
                         <p>
                             Need additional help with setup?{" "}
@@ -310,7 +310,7 @@ export default function SetupPage() {
                                 <Image src="/canonlogo.png" alt="Canon" width={3840} height={2160} className="h-10 w-auto" />
                             </Link>
                             <p className="mb-5 text-sm leading-6 text-gray-600">
-                                Find setup guidance, software, and help for your Canon printer.
+                                Find setup guidance, software, and help for your printer.
                             </p>
                             <button
                                 type="button"
@@ -371,7 +371,7 @@ export default function SetupPage() {
                     </div>
 
                     <div className="mt-10 border-t border-gray-300 pt-5 text-xs leading-5 text-gray-500">
-                        <p>&copy; {new Date().getFullYear()} Canon printer setup support. All rights reserved.</p>
+                        <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
                     </div>
                 </div>
             </footer>

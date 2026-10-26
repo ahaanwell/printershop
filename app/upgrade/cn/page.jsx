@@ -1,21 +1,29 @@
 import Script from "next/script";
 import SetupPage from "./SetupPage";
+import CustomerReviews from "@/components/CustomerReviews";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import ProductsList from "@/components/ProductsList";
+import WhyShopWithUs from "@/components/WhyShopWithUs";
+import WorkspacePrintersSection from "@/components/WorkspacePrintersSection";
+import Categories from "@/components/Categories";
 
-export const metadata = {
-  title: "Professional Printer Download Driver & Setup Solutions",
-  description:
-    "Expert printer services including installation, troubleshooting, maintenance, and 24/7 technical assistance for all printer brands.",
-  icons: {
-  icon: "/canonlogo.png",
-},
+// export const metadata = {
+//   title: "Professional Printer Download Driver & Setup Solutions",
+//   description:
+//     "Expert printer services including installation, troubleshooting, maintenance, and 24/7 technical assistance for all printer brands.",
+//   icons: {
+//   icon: "/canonlogo.png",
+// },
 
-};
+// };
 
 export default function Page() {
   return (
     <>
       {/* ✅ Load Tawk.to script properly */}
-      <Script
+      {/* <Script
         id="tawk-to"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -31,9 +39,17 @@ export default function Page() {
             })();
           `,
         }}
-      />
+      /> */}
 
-      <SetupPage />
+      {/* <SetupPage /> */}
+      <Header/>
+           <HeroSection/>
+           <Categories/>
+           <WorkspacePrintersSection/>
+           <ProductsList/>
+           <CustomerReviews/>
+           <WhyShopWithUs/>
+           <Footer/>
     </>
   );
 }
